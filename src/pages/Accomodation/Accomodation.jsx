@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function Accomodation() {
   return (
     <div>
-      bonjour à tous 
+      
     </div>
   )
 }

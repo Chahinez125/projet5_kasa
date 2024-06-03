@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 45px 100px 50px 100px;
+}
+.Header .navbar {
+  display: flex;
+  gap: 57px;
+}
+.Header .navbar__link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Montserrat;
+  position: relative;
+}
+.Header .navbar__link--active {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.Header .navbar__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.3s;
+}
+.Header .navbar__link:hover::after {
+  width: 100%;
+}/*# sourceMappingURL=Header.css.map */
