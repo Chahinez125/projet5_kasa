@@ -2,7 +2,8 @@ import React from 'react'
 import './About.scss'
 import Banner from '../../components/Banner/Banner';
 import mountain from '../../image/mountain.png'
-import dataAbout from '../../Data/description.json'
+import Collapse from '../../components/Collapse/Collapse';
+import data from '../../Data/description.json'
 
 const About = () => {
 
@@ -11,16 +12,17 @@ const About = () => {
   return (
     <>
    <Banner imageUrl={mountain} />
+  
    <div className='about'>
-    {dataAbout.map 
-    ((description, index) => (
-      <div key={index}>
-      <h2>{description.title}</h2>
-      <p>{description.content}</p>
-    </div>
-
-    ))}
-   </div>
+        {data.map((description, index) => (
+          <Collapse 
+          key={index}
+          title={description.title}
+          text={description.content}
+      />
+        ))}
+      </div>
+   
     </>
   )
 }

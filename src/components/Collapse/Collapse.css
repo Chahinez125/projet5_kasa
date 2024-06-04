@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  width: 100%;
+}
+.container.open .collapse-content {
+  max-height: 1000px;
+  transition: max-height 3s ease;
+  padding: 20px 20px 20px 0;
+}
+.container .collapse-title {
+  align-items: center;
+  padding: 10px 20px 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF6060;
+}
+.container h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.container .chevron {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.container .chevron.open {
+  transform: rotate(180deg);
+}
+
+.collapse-content {
+  line-height: 25px;
+  border-radius: 10px;
+  background-color: #F6F6F6;
+  overflow: hidden;
+  max-height: 0;
+}/*# sourceMappingURL=Collapse.css.map */
