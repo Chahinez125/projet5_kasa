@@ -1,9 +1,13 @@
 import React from 'react'
-
+import { Navigate, useParams } from 'react-router-dom'
+import Data from '../../Data/data.json'
 export default function Accomodation() {
-  return (
-    <div>
-   <p>Accomodation</p>
-    </div>
-  )
+  const { appartementId } = useParams(); 
+  //récupération de l'id dnas l'url
+  const app = Data.find((logement)=> logement.id === appartementId);
+  if (!app)
+    return(
+  <Navigate to ="/error" />
+    )
+ 
 }
