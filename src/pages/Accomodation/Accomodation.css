@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.carrousel-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .collapse-description-container {
   margin: 0 100px 50px 100px;
   display: grid;
