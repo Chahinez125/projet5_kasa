@@ -4,6 +4,30 @@
   margin-right: 100px;
 }
 
+.all-info {
+  margin: 30px 100px 50px 100px;
+  display: flex;
+  flex-direction: row;
+}
+.all-info .left-info,
+.all-info .right-container {
+  flex: 1;
+}
+.all-info .left-info {
+  display: flex;
+  flex-direction: column;
+}
+.all-info .left-info .title-location h1 {
+  color: #FF6060;
+  font-weight: 500;
+}
+.all-info .left-info .title-location p {
+  color: #000000;
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight: 500;
+}
+
 .collapse-description-container {
   margin: 0 100px 50px 100px;
   display: grid;

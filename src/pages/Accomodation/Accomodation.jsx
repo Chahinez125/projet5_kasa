@@ -18,6 +18,15 @@ export default function Accomodation() {
       <div className="carrousel-container">
       <Carrousel images = {app.pictures}/>
   </div>
+  <div className='all-info'>
+  <div className="left-info">
+  <div className="title-location">
+                        <h1>{app.title}</h1>
+                        <p>{app.location}</p>
+                    </div>
+    </div>
+
+  </div>
       <div className="collapse-description-container">
         <Article logementId={appartementId} />
       </div>
