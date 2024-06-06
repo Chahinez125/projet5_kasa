@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.container-tag {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.container-tag .tag {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 5px 22px 5px 22px;
+  color: #FFFFFF;
+  background-color: #FF6060;
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 150%;
+}/*# sourceMappingURL=Tags.css.map */

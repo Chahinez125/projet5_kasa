@@ -4,6 +4,8 @@ import Data from '../../Data/data.json';
 import Article from '../../components/Article/article';
 import './Accomodation.scss';
 import Carrousel from '../../components/Carrousel/Carrousel';
+import Tags from '../../components/Tags/Tags';
+
 
 export default function Accomodation() {
   const { appartementId } = useParams(); 
@@ -24,6 +26,7 @@ export default function Accomodation() {
                         <h1>{app.title}</h1>
                         <p>{app.location}</p>
                     </div>
+                    <Tags tags={app.tags}/>
     </div>
 
   </div>
