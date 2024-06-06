@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Accomodation.css"}
+{"version":3,"sourceRoot":"","sources":["../../style/index.scss","Accomodation.scss"],"names":[],"mappings":"AAEQ;ACAR;EACI;EACA;EACA;EACA;;AAEA;EACI","file":"Accomodation.css"}

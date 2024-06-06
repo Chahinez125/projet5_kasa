@@ -1,1 +1,10 @@
-/*# sourceMappingURL=Accomodation.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.collapse-description-container {
+  margin: 0 100px 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 76px;
+}
+.collapse-description-container li {
+  list-style-type: none;
+}/*# sourceMappingURL=Accomodation.css.map */

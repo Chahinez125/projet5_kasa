@@ -1,0 +1,12 @@
+@import '../../style/index.scss';
+
+.collapse-description-container {
+    margin: 0 100px 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 76px;
+        
+    li {
+        list-style-type: none;
+    }
+}
