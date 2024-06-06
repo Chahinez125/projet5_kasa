@@ -28,6 +28,30 @@
   font-weight: 500;
 }
 
+.right-container {
+  display: flex;
+  flex-direction: column;
+}
+.right-container .host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: end;
+  width: 20%;
+  position: relative;
+  left: 80%;
+}
+.right-container .host p {
+  color: #FF6060;
+  font-size: 18px;
+  font-weight: 500;
+}
+.right-container .host img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
 .collapse-description-container {
   margin: 0 100px 50px 100px;
   display: grid;

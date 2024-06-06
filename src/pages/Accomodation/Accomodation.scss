@@ -43,6 +43,39 @@
         }
     }
 }
+
+.right-container {
+    display: flex;
+    flex-direction: column; 
+
+.host {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    justify-content: end;
+    width: 20%;
+    position: relative;
+    left: 80%;
+
+    p{
+        color: $red;
+        font-size: 18px;
+        font-weight: 500;
+
+      
+    }
+    
+
+    img {
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+
+       
+    }
+}
+}
+
 .collapse-description-container {
     margin: 0 100px 50px 100px;
     display: grid;
