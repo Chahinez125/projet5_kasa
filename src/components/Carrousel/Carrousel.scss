@@ -7,7 +7,9 @@
     margin: auto;
     border-radius: 25px;
     overflow: hidden; 
-
+    @media (max-width : 425px) {
+        height: 225px;
+    }
  
     
    
@@ -41,7 +43,16 @@
             position: absolute;
             top: 45%;
             z-index: 1;
+            @media (max-width : 425px) {
+                width: 24px;
+                height: 35px;
+                left: -5%;
+            }
 
+            @media (max-width : 375px) {
+                width: 24px;
+                height: 35px     
+            }
           
             
 
@@ -54,7 +65,17 @@
             top: 45%;
             z-index: 1;
 
-          
+            @media (max-width : 375px) {
+                width: 24px;
+                height: 35px;
+                right: 5%;
+            }
+
+            @media (max-width : 425px) {
+                width: 24px;
+                height: 35px;
+            }
+        
 
            
         }
@@ -69,7 +90,10 @@
         background-color: rgba(0, 0, 0, 0.6);
         border-radius: 15px;
         padding: 5px 10px;
-
+        @media (max-width : 375px) {
+            font-size: 12px;
+            bottom: 8%;
+        }
       
     }
 }
