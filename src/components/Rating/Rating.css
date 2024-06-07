@@ -2,4 +2,10 @@
   display: flex;
   justify-content: end;
   padding-top: 22px;
+}
+@media (max-width: 425px) {
+  .starr img {
+    width: 18px;
+    height: 18px;
+  }
 }/*# sourceMappingURL=Rating.css.map */

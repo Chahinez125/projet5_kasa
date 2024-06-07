@@ -6,4 +6,10 @@
   margin-right: 209px;
   margin-bottom: 38px;
   gap: 30px;
+}
+@media (max-width: 425px) {
+  .about {
+    margin: 20px;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=About.css.map */

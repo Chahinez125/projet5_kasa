@@ -5,7 +5,11 @@
     gap : 15px;
     margin-top: 30px;
     margin-bottom: -10px;
-
+    @media (max-width : 425px){
+        gap: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
    
 
     .tag {
@@ -19,5 +23,8 @@
         font-weight: 700;
         text-align: center;
         line-height: 150%;
+        @media (max-width : 425px){
+            font-size: 10px;
+        }
     }
 }
