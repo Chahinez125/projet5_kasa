@@ -7,11 +7,21 @@
   margin-bottom: 139px;
   align-items: center;
 }
+@media (max-width: 425px) {
+  .error {
+    gap: 113px;
+  }
+}
 .error h1 {
   color: #FF6060;
   font-size: 210px;
   font-weight: 700;
   margin: 0;
+}
+@media (max-width: 425px) {
+  .error h1 {
+    font-size: 96px;
+  }
 }
 .error p {
   margin: 0;
@@ -20,10 +30,20 @@
   text-align: center;
   font-weight: 500;
 }
+@media (max-width: 425px) {
+  .error p {
+    font-size: 18px;
+  }
+}
 .error .return-link {
   color: #000000;
   font-size: 18px;
   text-decoration: underline;
   cursor: pointer;
   font-weight: 500;
+}
+@media (max-width: 425px) {
+  .error .return-link {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=PageError.css.map */
