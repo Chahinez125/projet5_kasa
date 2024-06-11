@@ -1,4 +1,4 @@
-import './Card.scss'; // Import du fichier de styles SCSS pour le composant Card
+import './Card.scss';
 
 function Card({ cover, title }) {
     // Affichage des cards
@@ -10,4 +10,4 @@ function Card({ cover, title }) {
     )
 }
 
-export default Card; // Export du composant Card
+export default Card;

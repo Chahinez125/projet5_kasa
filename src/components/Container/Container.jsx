@@ -1,6 +1,6 @@
-import './Container.scss'; // Import des styles
-import data from "../../Data/data.json"; // Import des données JSON
-import { NavLink } from 'react-router-dom'; // Import de NavLink pour la navigation
+import './Container.scss';
+import data from "../../Data/data.json"; 
+import { NavLink } from 'react-router-dom'; 
 import Card from '../Crad/Card';
 
 function Container() {

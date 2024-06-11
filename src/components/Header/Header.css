@@ -28,6 +28,7 @@
 @media (max-width: 425px) {
   .Header .navbar {
     gap: 26px;
+    text-transform: uppercase;
   }
 }
 .Header .navbar__link {

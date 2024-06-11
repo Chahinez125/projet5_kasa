@@ -87,12 +87,12 @@
         left: 47%;
         position: absolute;
         color: $white;
-        background-color: rgba(0, 0, 0, 0.6);
         border-radius: 15px;
         padding: 5px 10px;
-        @media (max-width : 375px) {
+        @media (max-width : 425px) {
             font-size: 12px;
             bottom: 8%;
+            display: none;
         }
       
     }
